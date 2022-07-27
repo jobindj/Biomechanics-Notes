@@ -46,7 +46,8 @@ markdown_extensions:
 plugins:
   - search
   - roamlinks 
-  - mermaid2
+  - bibtex:
+      bib_file: "docs/Library.bib"
 
 extra_javascript:
   - javascripts/mathjax.js
